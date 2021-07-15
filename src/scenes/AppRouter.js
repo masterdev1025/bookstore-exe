@@ -11,7 +11,7 @@ import Add from './Book/Add';
 class AppRouter extends React.Component {
     render() {
         return (
-            <div style={{ minHeight: '800px' }}>
+            <div style={{ minHeight: '800px', marginTop: '64px' }}>
                 <Router>
                     <Switch>
                         <Route path="/book" exact render={props => <Main {...props} />} />
