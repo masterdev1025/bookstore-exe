@@ -1,0 +1,11 @@
+.add-book__header{
+    padding:20px;
+    background-color: #eceaea;
+    text-align: center;
+}
+
+.new-book__item{
+    border: 1px solid green;
+    padding: 10px; 
+    margin: 20px 0px;
+}
