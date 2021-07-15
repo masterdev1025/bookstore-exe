@@ -1,5 +1,5 @@
 .book-filter__container{
-    
+    margin-top: 20px;
 }
 .book-filter__container .title{
     font-size: 2rem;
@@ -13,7 +13,7 @@
     position: relative;
     margin-top: 10px;
     padding: 15px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     box-shadow: 0px 0px 15px #e8e4e4;
     display: flex;
 }
@@ -28,4 +28,9 @@
 }
 .book-filter__container .search-bar .search-input:focus{
     outline: none;
+}
+
+.book-filter__container .search-filter{
+    /* border-radius: 25px; */
+    box-shadow: 0px 0px 15px #e8e4e4;
 }
