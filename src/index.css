@@ -18,4 +18,5 @@ code {
 .app-container .app-content{
   margin:auto;
   max-width: 1140px;
+  padding: 5px;
 }

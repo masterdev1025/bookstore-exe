@@ -1,14 +1,15 @@
 import React from 'react';
-import BookFilter from './components/Filter/Filter';
-import BookViewer from './components/Content/Content';
-class BookMain extends React.Component {
+import Filter from './components/Filter/Filter';
+import Content from './components/Content/Content';
+class Main extends React.Component {
     render() {
         return (
-            <div>
-
-            </div>
+            <>
+                <Filter />
+                <Content />
+            </>
         )
     }
 }
 
-export default BookMain;
+export default Main;
