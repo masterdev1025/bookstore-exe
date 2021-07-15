@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-
+:root {
+  --app-color: #563636;
+  --app-semi-color: #56363685;
+}
 body
 {
     font-family: 'Roboto', sans-serif !important;

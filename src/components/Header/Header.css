@@ -1,7 +1,7 @@
 .app-header{
     /* height: 100px; */
     padding:10px;
-    background-color: #5b2865;
+    background-color: var(--app-color);
 }
 
 .app-logo{

@@ -1,5 +1,5 @@
 .app-footer{
-    background-color: black;
+    background-color: var(--app-semi-color);
     min-height: 100px;
     margin-top: 20px;
 }

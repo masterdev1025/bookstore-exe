@@ -1,6 +1,6 @@
 .book-filter__container{
     padding: 20px 0px;
-    background-color: #eceaea;
+    background-color: var(--app-semi-color);
 }
 .book-filter__container .title{
     font-size: 2rem;

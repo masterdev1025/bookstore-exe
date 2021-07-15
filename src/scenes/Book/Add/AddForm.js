@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col } from 'reactstrap';
+import { Button, FormGroup, Label, Input, Row, Col } from 'reactstrap';
 import ImageUploader from '../../../components/ImageUploader';
 class AddForm extends React.Component {
     constructor(props) {

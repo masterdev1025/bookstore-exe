@@ -7,7 +7,7 @@ class Add extends React.Component {
             <>
                 <div className="app-container add-book__header">
                     <div className="app-content">
-                        <h2>Add New Book</h2>
+                        <h3>Add New Book</h3>
                     </div>
                 </div>
                 <div className="app-container ">
