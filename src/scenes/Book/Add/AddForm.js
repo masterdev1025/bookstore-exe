@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, FormGroup, Label, Input, Row, Col } from 'reactstrap';
+import { FaTrash } from 'react-icons/fa';
 import ImageUploader from '../../../components/ImageUploader';
 class AddForm extends React.Component {
     constructor(props) {
@@ -20,6 +21,15 @@ class AddForm extends React.Component {
                 }
             ]
         }
+    }
+    handleRemove = (index) => {
+        var _temp = [];
+        for (var i = 0; i < this.state.newBooks.length; i++) {
+            if (i !== index) _temp.push(this.state.newBooks[i]);
+        }
+        this.setState({
+            newBooks: [..._temp]
+        })
     }
     addBook = () => {
         this.setState({
@@ -46,6 +56,9 @@ class AddForm extends React.Component {
                 {
                     this.state.newBooks && this.state.newBooks.map((book, index) => (
                         <div key={`new_book_${index}`} className="new-book__item">
+                            {/* <div className="del-book__badge" onClick={() => this.handleRemove(index)}>
+                                <FaTrash />
+                            </div> */}
                             <Row>
                                 <Col sm={9}>
                                     <FormGroup>
@@ -133,7 +146,8 @@ class AddForm extends React.Component {
                         </div>
                     ))
                 }
-                <Button color="primary" onClick={this.addBook}>+ADD</Button>
+                <Button onClick={this.addBook} style={{ backgroundColor: 'var(--app-semi-color)', borderColor: 'var(--app-semi-color)', float: 'right' }}>+ADD</Button>
+                <Button style={{ backgroundColor: 'var(--app-color)', borderColor: 'var(--app-color)' }}>Save</Button>
             </>
         )
     }
