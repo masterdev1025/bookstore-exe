@@ -2,7 +2,7 @@
 .product-card {
     width: 100%;
     position: relative;
-    box-shadow: 0 2px 7px #dfdfdf;
+    box-shadow: 0 2px 7px var(--app-semi-color);
     margin: 20px auto;
     background: #fafafa;
     animation: fadeIn ease 2s;
@@ -122,27 +122,27 @@
 
 @keyframes fadeIn{
     0% {
-      opacity:0;
+        opacity:0;
     }
     100% {
-      opacity:1;
+        opacity:1;
     }
-  }
-  
-  @-moz-keyframes fadeIn {
+}
+
+@-moz-keyframes fadeIn {
     0% {
-      opacity:0;
+        opacity:0;
     }
     100% {
-      opacity:1;
+        opacity:1;
     }
-  }
-  
-  @-webkit-keyframes fadeIn {
+}
+
+@-webkit-keyframes fadeIn {
     0% {
-      opacity:0;
+        opacity:0;
     }
     100% {
-      opacity:1;
+        opacity:1;
     }
-  }
+}

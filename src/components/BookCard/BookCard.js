@@ -1,5 +1,6 @@
 import React from 'react';
 import './BookCard.css';
+import { FaRegStar } from 'react-icons/fa';
 class BookCard extends React.Component {
     render() {
         return (
@@ -11,7 +12,11 @@ class BookCard extends React.Component {
                     <span className="product-catagory">{this.props.title}</span>
                     <div className="product-bottom-details">
                         <div className="product-price">
-
+                            <FaRegStar />
+                            <FaRegStar />
+                            <FaRegStar />
+                            <FaRegStar />
+                            <FaRegStar />
                         </div>
                     </div>
                 </div>
